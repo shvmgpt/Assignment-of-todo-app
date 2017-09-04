@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title> Todo App</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+<div align="center" style="border: solid; margin: 50px 300px; border-width: thick">
+
+    <h1 style="background-color: yellow;">My Todos</h1>
+
+    <div align="left" >
+
+        <h4 style="margin-left: 50px;">Active Todos</h4>
+
+        <div id="todos_list_div" style="margin-left: 100px;">
+        </div>
+
+        <br><hr style="border: solid; border-bottom-width: thin">
+
+
+
+        <h4 style="margin-left: 50px;">Add Todo</h4>
+
+        <input type="text" id="new_todo_input" placeholder="Todo Title Goes Here" style="margin-left: 50px;"/>
+
+        <input type="button" value="Add" onclick="addTodoAJAX()" >
+
+        <hr style="border: solid; border-bottom-width: thin">
+
+
+
+        <div id="outer-completed-todos">
+            <h4 style="margin-left: 50px;" >Completed Todos<div id="complete-visibility" style="float: right;margin-right: 50px;color: blue" onclick = "Hide()"><u>Hide Completed Items</u></div></h4>
+            <div id="completed-todos">
+
+            </div>
+        </div>
+        <br>
+        <hr style="border: solid; border-bottom-width: thin">
+
+
+
+
+        <div id="outer-deleted-todos">
+            <h4 style="margin-left: 50px;">Deleted Todos<div id="delete-visibility" style="float: right;margin-right: 50px; color:blue " onclick="Hide2()"><u>Hide Deleted Items</u></div></h4>
+            <div id="deleted-todos"></div>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="/script.js" type="text/javascript"></script>
+</body>
+
+
+
+
+</html>

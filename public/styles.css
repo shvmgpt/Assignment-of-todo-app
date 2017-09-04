@@ -1,0 +1,40 @@
+
+.breathVertical {
+    margin-top:5px;
+    margin-bottom:5px;
+    text-decoration: line-through;
+}
+
+.breathHorizontal {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+div.todoStatusACTIVE {
+    color : blue;
+}
+
+.complete{
+    color : green;
+    text-decoration : line-through;
+}
+
+/*div.todoStatusCOMPLETE{
+    color : green;
+    text-decoration : line-through;
+}*/
+
+.delete{
+    color : red;
+    text-decoration : line-through;
+}
+
+.remove{
+    display: none;
+}
+
+div.todoStatusDELETED {
+    color : red;
+    text-decoration : line-through;
+   /* display: none;*/
+}
