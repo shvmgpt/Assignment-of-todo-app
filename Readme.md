@@ -29,7 +29,6 @@ This app has four sections:
 * Deleted Todos-Displays the list of deleted todos.
 
 To mark an active todo as complete todo click the checkbox button on left of todo.
-Clicking the checkbox on left of completed todo makes the todo active again.
 Cross button marks the todo as deleted.
 
 ### REST End Points
